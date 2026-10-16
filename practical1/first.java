@@ -4,7 +4,7 @@ class Student{
   double marks1, marks2, marks3;
 
   Student(int rollnumber, String name, Double marks1, double marks2, double marks3){
-    this.rollNumber = rollNumber;
+    this.rollNumber = rollnumber;
     this.name = name;
     this.marks1 = marks1;
     this.marks2 = marks2;
@@ -19,8 +19,8 @@ class Student{
   void display(){
     System.out.println("Roll Number :" + rollNumber);
     System.out.println("Name :" + name);
-    System.out.println("Total Markss :" + calculateTotal);
-    System.out.println("Percentage : " + calculatepercentage() / 3);
+    System.out.println("Total Markss :" + calculateTotal());
+    System.out.println("Percentage : " + calculatepercentage());
     
   }
   void student(String[] args) {

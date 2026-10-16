@@ -3,7 +3,7 @@ class Student{
   String name;
   double marks1, marks2, marks3;
 
-  student(int rollnumber, String name, Double marks1, double marks2, double marks3){
+  Student(int rollnumber, String name, Double marks1, double marks2, double marks3){
     this.rollNumber = rollNumber;
     this.name = name;
     this.marks1 = marks1;
